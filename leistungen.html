@@ -30,7 +30,7 @@
             <i class="fas fa-scissors"></i>
             <span>La Belle & Le Beau</span>
         </div>
-        <nav>
+        <nav id="navMenu">
             <ul>
                 <li><a href="index.html" class="nav-link">Startseite</a></li>
                 <li><a href="ueber-uns.html" class="nav-link">Über Uns</a></li>
@@ -39,7 +39,12 @@
                 <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
             </ul>
         </nav>
-        <a href="kontakt.html" class="btn btn-gold" style="padding: 0.6rem 1.5rem; font-size: 0.9rem;">Termin buchen</a>
+        <div class="nav-right">
+            <a href="kontakt.html" class="btn btn-gold btn-header">Termin buchen</a>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -246,6 +251,7 @@
         // Run on load
         window.addEventListener('load', handleDeepLink);
     </script>
+    <script src="js/mobile-menu.js"></script>
 </body>
 
 </html>

@@ -30,7 +30,7 @@
             <i class="fas fa-scissors"></i>
             <span>La Belle & Le Beau</span>
         </div>
-        <nav>
+        <nav id="navMenu">
             <ul>
                 <li><a href="index.html" class="nav-link active">Startseite</a></li>
                 <li><a href="ueber-uns.html" class="nav-link">Über Uns</a></li>
@@ -39,7 +39,12 @@
                 <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
             </ul>
         </nav>
-        <a href="kontakt.html" class="btn btn-gold" style="padding: 0.6rem 1.5rem; font-size: 0.9rem;">Termin buchen</a>
+        <div class="nav-right">
+            <a href="kontakt.html" class="btn btn-gold btn-header">Termin buchen</a>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -139,7 +144,7 @@
                     <div class="showcase-info">
                         <h4>Balayage & Color</h4>
                         <p>Brillante Farben und sanfte Übergänge für ein natürliches Ergebnis.</p>
-                        <a href="leistungen.html?service=color" class="text-link">Mehr erfahren <i
+                        <a href="leistungen.html?service=damen" class="text-link">Mehr erfahren <i
                                 class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
@@ -325,6 +330,7 @@
             }, 3000);
         }
     </script>
+    <script src="js/mobile-menu.js"></script>
 </body>
 
 </html>

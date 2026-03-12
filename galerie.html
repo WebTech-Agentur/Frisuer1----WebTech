@@ -30,7 +30,7 @@
             <i class="fas fa-scissors"></i>
             <span>La Belle & Le Beau</span>
         </div>
-        <nav>
+        <nav id="navMenu">
             <ul>
                 <li><a href="index.html" class="nav-link">Startseite</a></li>
                 <li><a href="ueber-uns.html" class="nav-link">Über Uns</a></li>
@@ -39,13 +39,18 @@
                 <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
             </ul>
         </nav>
-        <a href="kontakt.html" class="btn btn-gold" style="padding: 0.6rem 1.5rem; font-size: 0.9rem;">Termin buchen</a>
+        <div class="nav-right">
+            <a href="kontakt.html" class="btn btn-gold btn-header">Termin buchen</a>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
 
     <main>
         <!-- Page Header -->
         <section class="page-header"
-            style="padding-top: 10rem; text-align: center; background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('images/salon-interior.png'); background-size: cover; background-position: center;">
+            style="padding-top: 10rem; text-align: center; background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('images/hero-gallery-new.png'); background-size: cover; background-position: center;">
             <h1 style="font-size: 4rem; color: var(--accent-gold);">Galerie</h1>
             <p style="color: var(--text-gray); max-width: 600px; margin: 1rem auto;">Lassen Sie sich von unseren
                 Kreationen inspirieren und entdecken Sie Ihren neuen Look.</p>
@@ -182,6 +187,7 @@
         </div>
     </footer>
 
+    <script src="js/mobile-menu.js"></script>
 </body>
 
 </html>
