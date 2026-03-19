@@ -156,7 +156,7 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-main.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1712641966810-611ff1503c6d?q=80&w=1130&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -244,7 +244,7 @@ nav ul li a:hover {
 
 .about-experience {
     position: absolute;
-    top: 40px;
+    bottom: -20px;
     left: -40px;
     background: var(--gold-gradient);
     color: var(--text-dark);
@@ -769,7 +769,7 @@ section {
 
 /* CTA Section */
 .cta-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/salon-interior.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/photo-1711504040144-d68ce9e30cbe.avif');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
