@@ -145,6 +145,20 @@ nav ul {
     align-items: center;
 }
 
+.nav-toggle {
+    display: none; /* Hidden on desktop */
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--accent-gold);
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgba(197, 157, 63, 0.3);
+    transition: var(--transition);
+}
+
 nav ul li a:hover {
     color: var(--accent-gold);
 }
